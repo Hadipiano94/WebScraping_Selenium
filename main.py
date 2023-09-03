@@ -4,7 +4,7 @@ from selenium.webdriver.common.by import By
 
 chrome_driver_path = "D:/chromedriver.exe"
 
-form_link = "https://docs.google.com/forms/d/e/1FAIpQLSdLLMsjgb_0pu32lFx62ywMqsphsBAtP4NPRSh-O2BMxvNA-w/viewform?usp=sf_link"
+form_link = "your doc.google form"
 search_link = "https://www.zillow.com/liberty-mo/?searchQueryState=%7B%22pagination%22%3A%7B%7D%2C%22mapBounds%22%3A%7B%22north%22%3A52.92953336908615%2C%22east%22%3A-85.163336875%2C%22south%22%3A20.50024342502191%2C%22west%22%3A-131.745368125%7D%2C%22mapZoom%22%3A4%2C%22regionSelection%22%3A%5B%7B%22regionId%22%3A5624%2C%22regionType%22%3A6%7D%2C%7B%22regionId%22%3A20330%2C%22regionType%22%3A6%7D%5D%2C%22isMapVisible%22%3Atrue%2C%22filterState%22%3A%7B%22price%22%3A%7B%22max%22%3A300000%2C%22min%22%3A100000%7D%2C%22mp%22%3A%7B%22max%22%3A1508%2C%22min%22%3A503%7D%2C%22ah%22%3A%7B%22value%22%3Atrue%7D%2C%22sort%22%3A%7B%22value%22%3A%22globalrelevanceex%22%7D%2C%22beds%22%3A%7B%22min%22%3A1%7D%7D%2C%22isListVisible%22%3Atrue%7D"
 
 driver = webdriver.Chrome()
